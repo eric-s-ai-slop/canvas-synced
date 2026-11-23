@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Canvas Synced</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="app.mjs"></script>
+  </head>
+  <body>
+    <main>
+      <h1>Canvas Synced</h1>
+      <p id="source">Open your signed-in Canvas tab and click Canvas Synced in Chrome’s Extensions menu.</p>
+      <p>Export your courses and assignments as a JSON file on this device.</p>
+      <button id="scan" disabled>Read Canvas</button>
+      <button id="download" hidden>Download JSON</button>
+      <p id="status" role="status"></p>
+      <ul id="issues" hidden></ul>
+    </main>
+  </body>
+</html>
